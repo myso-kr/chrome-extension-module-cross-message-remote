@@ -23,7 +23,7 @@ class ExampleModule extends chrome.runtime.RemoteModule {
 }
 ```
 
-### cast(action: String, ...args: Object[])
+### cast(action: String, data: Object)
 
 ### emit(action: String, ...args: Object[])
 
