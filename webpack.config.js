@@ -17,9 +17,9 @@ module.exports = {
     }],
   },
   plugins: [
-    // new webpack.LoaderOptionsPlugin({ minimize: true }),
-    // new webpack.optimize.ModuleConcatenationPlugin(),
-    // new webpack.optimize.UglifyJsPlugin({ sourceMap: true, compress: { warnings: false, drop_console: true }, output: { comments: false } }),
+    new webpack.LoaderOptionsPlugin({ minimize: true }),
+    new webpack.optimize.ModuleConcatenationPlugin(),
+    new webpack.optimize.UglifyJsPlugin({ sourceMap: true, compress: { warnings: false, drop_console: true }, output: { comments: false } }),
   ],
   resolve: {
     modules: ['node_modules'],
